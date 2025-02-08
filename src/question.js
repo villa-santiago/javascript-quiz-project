@@ -12,3 +12,29 @@ class Question {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Get the shuffled array from the function
+// const newResult = shuffleChoices(choices); 
+
+// // Display Shuffled array
+// console.log("Shuffled Array: ", newResult);
+
+
+
+
+

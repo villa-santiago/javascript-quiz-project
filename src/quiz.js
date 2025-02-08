@@ -20,13 +20,42 @@ class Quiz {
       [this.questions[i], this.questions[j]] = [this.questions[j],this.questions[i]];
     }
   }
-  checkAnswer(answer) {
-    
-    
-  }
+
+
+
+shuffleQuestions() {
+    for(let i = this.questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [this.questions[i], this.questions[j]] = [this.questions[j], this.questions[i]];
+    }
+}
+checkAnswer(answer) { 
+    const currentQuestion = this.getQuestion(); 
+        if (answer === currentQuestion.answer){
+            this.correctAnswers++;
+        }
+    }
     
 
-  hasEnded() {
 
-  }
+
+
+
+hasEnded() {
+
+
+    // YOUR CODE HERE:
+    //
+    // 1. constructor (questions, timeLimit, timeRemaining)
+
+    // 2. getQuestion()
+    
+    // 3. moveToNextQuestion()
+
+    // 4. shuffleQuestions()
+
+    // 5. checkAnswer(answer)
+
+    // 6. hasEnded()
+}
 }
