@@ -21,10 +21,12 @@ class Quiz {
     }
   }
   checkAnswer(answer) {
-    if (answer === true) {
-      this.correctAnswers++;
-    }
+    
+    
   }
+    
 
-  hasEnded() {}
+  hasEnded() {
+
+  }
 }
