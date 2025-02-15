@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 startTimer();
 
-showResults();
+//showResults();
 
 
 
